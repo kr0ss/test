@@ -1,0 +1,62 @@
+.wrap-main {
+  padding-top: 100px;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+.wrap-data {
+   padding-left: 192px;
+
+   .info {
+      max-width: 700px;
+      position: relative;      
+
+      #monto {
+         position: absolute;
+         right: 153px;
+         top: 28px;
+      }  
+
+      #destinatario {
+          left: 120px;
+          position: absolute;
+          top: 100px;
+      }  
+
+      #fecha-dia {
+        position: absolute;
+        right: 320px;
+        top: 75px;     
+      } 
+
+      #fecha-mes {
+        position: absolute;
+        right: 163px;
+        top: 75px;             
+      }
+
+      #fecha-ano {
+        position: absolute;
+        right: 50px;
+        top: 75px;             
+      }
+
+      #valor {
+          left: 130px;
+          position: absolute;
+          top: 127px;        
+      } 
+
+      img {
+         height: auto;
+         max-width: 700px;
+         width: 100%;
+      }      
+   }
+}
+
+.form-control[readonly] {
+  background: none;
+}
